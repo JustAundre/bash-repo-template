@@ -32,10 +32,18 @@ git clone --recurse-submodules git@github.com:user/repo.wiki.git
 
 Substitute "*user*" and "*repo*" with your target user and repository.
 
-## Updating Submodules
+## Submodules
+
+Initializing submodules:
 
 ```bash
 git submodule update --init --recursive
+```
+
+Bumping submodule version (for devs):
+
+```bash
+git submodule update --remote --recursive
 ```
 
 ## Quick Commands
